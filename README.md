@@ -14,7 +14,7 @@ Steam・GOG.com で販売されている「Classic」版（DOS 版）を対象�
 | 作品 | 状態 | ダウンロード |
 |---|---|---|
 | レルムズ・オブ・アルカニア 運命の剣（Realms of Arkania: Blade of Destiny） | 公開中 | [RealmsOfArkania1_JP.zip](https://github.com/higesho/arkania-ja/releases/tag/roa1-v1.0) |
-| レルムズ・オブ・アルカニア スタートレイル（Realms of Arkania: Star Trail） | 予定 | — |
+| レルムズ・オブ・アルカニア スタートレイル（Realms of Arkania: Star Trail） | 公開中 | [RealmsOfArkania2_JP.zip](https://github.com/higesho/arkania-ja/releases/tag/roa2-v1.0) |
 | レルムズ・オブ・アルカニア シャドウズ・オーバー・リヴァ（Realms of Arkania: Shadows over Riva） | 予定 | — |
 
 入れ方と外し方は、サイトの各作品のページをご覧ください。
