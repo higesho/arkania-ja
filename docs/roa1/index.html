@@ -23,7 +23,7 @@
 <p class="tag">Steam 版の「Realms of Arkania 1 - Blade of Destiny Classic」（DOS 版）を日本語で遊べるようにする、非公式のファンメイドパッチです。
 町や会話、ダンジョン、戦闘、呪文、アイテム名、キャラクター作成まで、ゲームの中の文章をすべて日本語にしています。
 ゲームのフォルダに DLL を 1 つ置くだけで日本語になり、消せば英語に戻ります。</p>
-<p><a class="dl" href="https://github.com/higesho/arkania-ja/releases/tag/roa1-v1.0">ダウンロード（GitHub）</a></p>
+<p><a class="dl" href="https://github.com/higesho/arkania-ja/releases/tag/roa1-v1.1">ダウンロード（GitHub）</a></p>
 </section>
 
 <div class="text">
@@ -86,6 +86,12 @@
 <h2>仕組み</h2>
 <p><code>winmm.dll</code> は Windows の同名のファイルの代わりに DOSBox に読み込まれ、元の機能はそのまま Windows のものに渡します。
 DOSBox がゲームのファイルを開くときに日本語の文章を入れたデータに差し替え、文字の表示と折り返しを DLL の中で行います。</p>
+
+<h2>更新履歴</h2>
+<ul>
+<li>v1.1：環境によっては、起動したときに「プロシージャ エントリ ポイント mmioCreateChunk が … DINPUT.DLL から見つかりませんでした」と出て、マウスが使えなくなる不具合を直しました。winmm.dll を新しいものに置き換えてください。</li>
+<li>v1.0：最初の公開。</li>
+</ul>
 
 <h2>ご意見・誤訳の報告</h2>
 <p>誤訳や不自然な訳に気づいたら、<a href="https://github.com/higesho/arkania-ja/issues">GitHub の Issues</a> で教えてください。場面がわかるスクリーンショット（DOSBox では Ctrl＋F5 で撮れます）があると助かります。</p>
